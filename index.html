@@ -1,44 +1,54 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
   <title>Daily Journal</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <link rel="stylesheet" href="./main.css">
 
 </head>
 
-<body>
-<form>
-<label for="textline">Concepts Covered:</label>
-<input id="textline" type="text">
-<label  for="textareabox">Journal Entry:</label>
+<body class="centercontain">
+  
+  <form>
+    <div class="getinacolumn">
+      <label for="textline">Concepts Covered:</label>
+      <input id="textline" type="text">
+    </div>
+    <div class="getinacolumn">
+      <label for="textareabox">Journal Entry:</label>
 
-<textarea id="textareabox" name="w3review" rows="4" cols="50">
+      <textarea id="textareabox" name="w3review" rows="4" cols="50">
 Enter text here.
 </textarea>
+    </div>
+    <div class="getinacolumn">
+      <label for="moods">Choose a mood:</label>
 
-<label for="moods">Choose a mood:</label>
+      <select name="moodymcmoodface" id="moods">
+        <option value="sad">Sad</option>
+        <option value="happy">Happy</option>
+        <option value="fine">Fine</option>
+        <option value="perplexed">Perplexed</option>
+      </select>
+    </div>
 
-<select name="cars" id="moods">
-  <option value="sad">Sad</option>
-  <option value="happy">Happy</option>
-  <option value="fine">Fine</option>
-</select>
-<!--THIS IS A COMMENT-->
-<button type="button">Delete</button>
-<button type="button">Edit</button>
-<button type="button">Record Journal Entry</button>
-</form>
+    <div class="getinacolumn">
+      <button class ="deletebutton2" type="button">Delete</button>
+      <button class="editbutton2" type="button">Edit</button>
+      <button class="recordjournalbutton2"type="button">Record Journal Entry</button>
+    </div>
+  </form>
 
 
 
-  <script src="js/scripts.js"></script>
+  <script src="/main.js"></script>
 </body>
 
-<footer>All rights reserved. &copy; </footer>
+<footer class="bottomcontainer">Entries by David Darden. All rights reserved. &copy; </footer>
+
 </html>
