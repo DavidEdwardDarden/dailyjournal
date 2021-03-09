@@ -20,9 +20,15 @@
       <input id="textline" type="text">
     </div>
     <div class="getinacolumn">
+      <label for="textline">Date of entry:</label>
+      <input type="date" id="textline" type="text">
+    </div>
+
+
+    <div class="getinacolumn">
       <label for="textareabox">Journal Entry:</label>
 
-      <textarea id="textareabox" name="w3review" rows="4" cols="50">
+      <textarea id="textareabox"  rows="4" cols="50">
 Enter text here.
 </textarea>
     </div>
@@ -43,10 +49,13 @@ Enter text here.
       <button class="recordjournalbutton2"type="button">Record Journal Entry</button>
     </div>
   </form>
+  <div id="entryLog" class="getinacolumn">
+
+  </div>
 
 
 
-  <script src="/main.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
 </body>
 
 <footer class="bottomcontainer">Entries by David Darden. All rights reserved. &copy; </footer>
