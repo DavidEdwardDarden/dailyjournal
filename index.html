@@ -12,28 +12,30 @@
 
 </head>
 
-<body class="centercontain">
-  
-  <form>
-    <div class="getinacolumn">
-      <label for="textline">Concepts Covered:</label>
-      <input id="textline" type="text">
+<body>
+
+  <form class="formbackground" class="centercontain">
+    <h1 class="centerme">DAILY JOURNAL</h1>
+
+    <div class="centerme">
+      <label class="centerme" for="textline">Concepts Covered:</label>
+      <input class="centerme" id="textline" type="text">
     </div>
-    <div class="getinacolumn">
-      <label for="textline">Date of entry:</label>
-      <input type="date" id="textline" type="text">
+    <div class="centerme">
+      <label class="centerme" for="textline">Date of entry:</label>
+      <input class="centerme" type="date" id="textline" type="text">
     </div>
 
 
-    <div class="getinacolumn">
-      <label for="textareabox">Journal Entry:</label>
+    <div class="centerme">
+      <label class="centerme" for="textareabox">Journal Entry:</label>
 
-      <textarea id="textareabox"  rows="4" cols="50">
+      <textarea class="centerme" id="textareabox" rows="4" cols="50">
 Enter text here.
 </textarea>
     </div>
-    <div class="getinacolumn">
-      <label for="moods">Choose a mood:</label>
+    <div class="centerme">
+      <label class="centerme" for="moods">Choose a mood:</label>
 
       <select name="moodymcmoodface" id="moods">
         <option value="sad">Sad</option>
@@ -43,13 +45,15 @@ Enter text here.
       </select>
     </div>
 
-    <div class="getinacolumn">
-      <button class ="deletebutton2" type="button">Delete</button>
-      <button class="editbutton2" type="button">Edit</button>
-      <button class="recordjournalbutton2"type="button">Record Journal Entry</button>
+    <div class="newbuttonjuju">
+      <button class="deletebutton2" class="margin" type="button">Delete</button>
+      <button class="editbutton2" class="margin" type="button">Edit</button>
+      <button class="recordjournalbutton2" class="margin" type="button">Record Journal Entry</button>
     </div>
+
   </form>
-  <div id="entryLog" class="getinacolumn">
+  <h2 class="makegray">PAST ENTRIES:</h2>
+  <div class="makegray" id="entryLog" class="getinacolumn">
 
   </div>
 
@@ -58,6 +62,6 @@ Enter text here.
   <script type="module" src="./scripts/main.js"></script>
 </body>
 
-<footer class="bottomcontainer">Entries by David Darden. All rights reserved. &copy; </footer>
+<footer  class="makegray" class="bottomcontainer">Entries by David Darden. All rights reserved. &copy; </footer>
 
 </html>
